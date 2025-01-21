@@ -1,0 +1,12 @@
+RuntimeType: Container
+ServiceType: private
+ArtifactSourceType: DockerCompose
+ServiceBuildRegion: ap-southeast-1
+RepoName: JJGGu/ToolJet
+DockerComposeEnvPath: deploy/docker/.env.internal.example
+RegionId: cn-hangzhou
+CustomParameters: ''
+DockerComposeYamlPath: deploy/docker/docker-compose-db.yaml
+Owner: JJGGu
+Branch: develop
+Platform: github
